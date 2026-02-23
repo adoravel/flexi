@@ -1,7 +1,11 @@
 {
 	"name": "@404/flexi",
 	"license": "MPL-2.0",
-	"workspace": ["./data", "./rest", "./gateway"],
+	"imports": {
+		"@404/flexi/gateway/": "./gateway/",
+		"@404/flexi/rest/": "./rest/",
+		"@404/flexi/data/": "./data/"
+	},
 	"exports": {},
 	"fmt": {
 		"useTabs": true,
