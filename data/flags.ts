@@ -1,3 +1,8 @@
+/**
+ * Copyright (c) 2025 adoravel
+ * SPDX-License-Identifier: MPL-2.0
+ */
+
 // bitflag constants and utilities for all fluxer flag types
 
 export type Flags = Record<string, number>;
@@ -95,4 +100,10 @@ export const enum GuildMemberProfileFlags {
 	AvatarUnset = 1,
 	/** Guild member banner is unset */
 	BannerUnset = 2,
+}
+
+export const enum GuildSplashCardAlignment {
+	Center = 0,
+	Left = 1,
+	Right = 2,
 }
